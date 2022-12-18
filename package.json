@@ -1,4 +1,7 @@
 {
   "name": "NoiseMaker",
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "random-word": "^2.0.0"
+  }
 }

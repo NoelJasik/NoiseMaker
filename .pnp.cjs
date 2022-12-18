@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["random-word", "npm:2.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -36,9 +37,49 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["NoiseMaker", "workspace:."]\
+            ["NoiseMaker", "workspace:."],\
+            ["random-word", "npm:2.0.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["random-word", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/random-word-npm-2.0.0-dc2b86588c-2a43296b6d.zip/node_modules/random-word/",\
+          "packageDependencies": [\
+            ["random-word", "npm:2.0.0"],\
+            ["unique-random-array", "npm:1.0.1"],\
+            ["word-list", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["unique-random", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/unique-random-npm-1.0.0-0d498c28ae-c721f9ab7a.zip/node_modules/unique-random/",\
+          "packageDependencies": [\
+            ["unique-random", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["unique-random-array", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/unique-random-array-npm-1.0.1-8d7abbd3ad-374d068a8e.zip/node_modules/unique-random-array/",\
+          "packageDependencies": [\
+            ["unique-random-array", "npm:1.0.1"],\
+            ["unique-random", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["word-list", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/word-list-npm-2.0.0-4e809126f2-fc519e50fc.zip/node_modules/word-list/",\
+          "packageDependencies": [\
+            ["word-list", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\

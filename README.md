@@ -1,5 +1,5 @@
 # NoiseMaker
-A tool which can generate html and js files, with random names, creted for https://github.com/NoelJasik/Nic
+A tool which can generate html and js files, with random names, created for https://github.com/NoelJasik/Nic
 
 
 ## How to use?
